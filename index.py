@@ -54,9 +54,6 @@ menus = [
 import openai
 import os
 
-# Set your OpenAI API key
-OPENAI_API_KEY = "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"  # Replace with your actual API key
-
 # Ensure the OpenAI API key is set
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
