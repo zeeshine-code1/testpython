@@ -55,7 +55,7 @@ import openai
 import os
 
 # Ensure the OpenAI API key is set
-client = openai.OpenAI(api_key=OPENAI_API_KEY)
+client = ""
 
 def chat_with_openai():
     conversation_history = [{"role": "system", "content": "You are a restaurant AI assistant designed to provide information strictly about X-Restaurant. You will only answer questions related to the restaurant, including its menu, operating hours, location, reservations, pricing, dietary options, special offers, and policies. If a question is unrelated to the restaurant, politely inform the user that you can only provide restaurant-related details and do not engage with off-topic inquiries. Keep responses accurate, concise, and professional.."}]
